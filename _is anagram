@@ -1,0 +1,21 @@
+bool isAnagram(String a, String b){
+  if(a.length != b.length){
+    return false;
+  }
+  List<String> listA = a.split("");
+  List<String> listB = b.split("");
+  
+  listA.sort();
+  listB.sort();
+  
+  
+  return listA.join() == listB.join();
+}
+void main(){
+  if(isAnagram("ilent","listen") == true){
+    print("Anagrame");
+  }
+  else{
+    print("Not anagram");
+  }
+}
