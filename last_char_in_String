@@ -1,0 +1,4 @@
+void main(){
+  String text = 'Shohan';
+  print(text[text.length-1]);
+}
