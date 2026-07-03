@@ -1,0 +1,12 @@
+void main(){
+  String text = "Bangladesh";
+  int count = 0;
+  
+  try {
+    while(true){
+      text[count];
+      count++;
+    }
+  } catch (_) {}
+  print(count);
+}
