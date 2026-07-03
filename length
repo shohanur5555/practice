@@ -1,0 +1,6 @@
+void main(){
+  List<String> shohan = ['shohan','Shohanur','Rahman'];
+  
+  print(shohan[0]);
+  print(shohan.length);
+}
