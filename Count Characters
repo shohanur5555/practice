@@ -1,0 +1,8 @@
+void main(){
+  String text = "Bangladesh";
+  int count = 0;
+  for(int i=0;i<text.length;i++){
+    count++;
+  }
+  print("The length of $text is : $count");
+}
