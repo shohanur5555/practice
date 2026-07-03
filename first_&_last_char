@@ -1,0 +1,6 @@
+void main(){
+  String text = 'Shohanur';
+  
+  print('${text[0]} ${text[text.length-1]}');
+  
+}
