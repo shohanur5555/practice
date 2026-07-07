@@ -1,9 +1,9 @@
 void main(){
   String text = 'Shohan';
- 
+  String result = '';
   
-  for(int i=0;i<text.length;i++){
-    print(text[i]);
-    
+  for(int i=text.length-1;i>=0;i--){
+    result+=text[i];
   }
+  print(result);
 }
