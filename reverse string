@@ -1,0 +1,7 @@
+void main(){
+  String text = 'Shohan';
+ 
+  for(int i=text.length-1;i >= 0;i--){
+    print(text[i]);
+  }
+}
