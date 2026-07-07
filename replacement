@@ -1,0 +1,14 @@
+void main(){
+  String text = 'banana';
+  String result = '';
+  
+  for(int i=0;i<text.length;i++){
+    if(text[i]=='a'){
+      result += '*';
+    }
+    else{
+      result += text[i];
+    }
+  }
+  print(result);
+}
