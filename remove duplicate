@@ -1,0 +1,14 @@
+void main(){
+  String text = 'programming';
+  String result = '';
+  
+  for(int i=0;i<text.length;i++){
+    if(!result.contains(text[i])){
+      result += text[i];
+    }
+  }
+  print(result);
+  
+  
+  
+}
