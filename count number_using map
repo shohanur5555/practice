@@ -1,0 +1,14 @@
+void main(){
+  String text = 'programming';
+  Map<String,int> count = {};
+  
+  for(int i=0;i<text.length;i++){
+    if(count.containsKey(text[i])){
+     count[text[i]] = count[text[i]]! + 1;
+    }
+    else{
+      count[text[i]] = 1;
+    }
+  }
+  print(count);
+}
